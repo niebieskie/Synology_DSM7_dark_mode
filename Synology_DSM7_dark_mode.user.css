@@ -183,4 +183,14 @@
     * {
         color: var(--color_text_primary) !important;
     }
+
+    .syno-dl-main .syno-dl-rightpanel, .syno-syslog-searchpanel-padding {
+        padding: 1px 0px 0 1px;
+    }
+    .syno-ux-triggerfield, .syno-ux-combobox, .syno-ux-colorfield, .syno-ux-schedulefield, .syno-ux-datefield, .syno-ux-timefield, .syno-ux-superboxselect {
+        background: none;
+    }
+    .x-form-field-trigger-wrap .x-form-trigger.syno-ux-triggerfield-trigger, .x-form-field-trigger-wrap .x-form-trigger.syno-ux-combobox-trigger, .x-form-field-trigger-wrap .x-form-trigger.syno-ux-colorfield-trigger, .x-form-field-trigger-wrap .x-form-trigger.syno-ux-schedulefield-trigger, .x-form-field-trigger-wrap .x-form-trigger.syno-ux-datefield-trigger, .x-form-field-trigger-wrap .x-form-trigger.syno-ux-timefield-trigger {
+        background-color: var(--color_background);
+    }
 }
